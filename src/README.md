@@ -1,10 +1,5 @@
-# FPU — Floating Point Unit
+# CMU — Complex Math Unit
 
-Place APEX-16 FPU `.dig` files here.
+Place APEX-16 CMU `.dig` files here.
 
-## Operations
-- Floating point addition
-- Floating point subtraction
-
-## Format
-TBD — standard floating point format planned.
+> ⚠️ This unit's role is still under consideration and may change.
