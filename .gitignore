@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Digital simulator backups
+*.dig.bak
+
+# Temp files
+*.tmp
