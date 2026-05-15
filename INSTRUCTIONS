@@ -1,0 +1,31 @@
+MINI-INSTRUCTIONS
+---------------------------------------
+
+0x0000000000001 2-WORD INSTR		Tells the PCU(Pipline Control Unit) that this instruction also has a data part
+0x0000000000002 REG-ld				Loads the data on the Data Bus into B,C,D,E,F,G, or I
+0x0000000000004 REG-out				Displays data in B,C,D,E,F,G, or I onto the Data Bus
+0x0000000000008 INSTR-REG       	Displays contents of DATA Buffer in INSTR to the Data Bus
+0x0000000000010 INSTR-REG			Displays the opcode of the instruction onto data bus for instr like LDB #xx
+0x0000000000020
+0x0000000000040
+0x0000000000080
+0x0000000000100
+0x0000000000200
+0x0000000000400
+0x0000000000800
+
+
+
+
+
+
+INSTRUCTIONS
+---------------------------------------
+ 00000000   0000      0000
+Other Part LD Part  OUT Part
+
+//0000 Binary: 0000000000000000	LDA #NUM 
+0001 Binary: 0000000000000001	LDB #NUM
+0002 Binary: 0000000000000010	LDC #NUM
+0003 Binary: 0000000000000011	LDD #NUM
+0004 Binary: 0000000000000100	LDE #NUM
