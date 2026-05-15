@@ -17,7 +17,7 @@ APEX-16 is a custom-designed 16-bit pipelined CPU with a floating point unit (FP
 | FPU (floating point add/sub) |  📋 Planned |
 | General purpose registers (~8) | 🔄 In Progress |
 | Accumulator register (Reg A) | 🔄 In Progress |
-| RAM addressing registers | 🔄 In Progress |
+| RAM addressing registers | 📋 Planned |
 | ISA (Instruction Set) | 📋 Planned |
 | Virtual memory | ❓ Under Consideration |
 
