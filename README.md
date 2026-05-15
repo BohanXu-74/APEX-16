@@ -105,10 +105,9 @@ APEX-16/
 │   ├── ALU/                  # ALU circuit files (.dig)
 │   ├── FPU/                  # FPU circuit files (.dig)
 │   ├── CMU/                  # CMU circuit files (.dig)
-│   ├── pipeline/             # Pipeline stage circuits
-│   └── registers/            # Register file circuits
+│   ├── CPU/                  # MAIN CPU with all of the connecting circuts including Registers
 ├── diagrams/                 # PNG exports of circuit diagrams
-└── tests/                    # Test programs / simulations
+└── tests/                    # Test programs / simulations (Not yet made)
 ```
 
 ---
